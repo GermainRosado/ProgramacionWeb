@@ -1,0 +1,30 @@
+.cliente-foto{
+    img{
+        width: 80px;
+        float: left;
+        margin-right: 20px;
+        border-radius: 50%;
+    }
+    &:hover{
+        border-radius: 15%;
+    }
+}
+
+.comentario{
+    overflow: hidden;
+    h5{
+        margin-bottom: 5px;
+    }
+    
+    blockquote{
+    margin: 0;
+    padding: 0 0 10px 0;
+    border: none;
+        p{
+            font-style: italic;
+            font-size: 14px;
+        }
+    }
+}
+
+//tranformada inversa (uniforme exponencial verdulin poisson), convolución(normal y binamial) y triangular
